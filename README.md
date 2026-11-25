@@ -2,6 +2,8 @@
 
 **Python · Flask · TensorFlow/Keras · SQL Server · Docker**
 
+Proyecto académico grupal · Universidad Evangélica de El Salvador · Sistemas Expertos · Ciclo 8 de 2025
+
 En este proyecto exploré cómo consultar información académica mediante preguntas escritas: horarios, docentes, aulas, evaluaciones, eventos y contactos de facultades. Lo desarrollamos en grupo para la materia de Sistemas Expertos, en el ciclo 8 de 2025. El prototipo se llamó **Bot Antijosué**.
 
 Aquí presento su funcionamiento, arquitectura, aprendizajes y pruebas mediante una demostración local con datos ficticios. La implementación se conserva en un repositorio privado; este caso se puede revisar sin iniciar sesión en la aplicación ni acceder al código.
