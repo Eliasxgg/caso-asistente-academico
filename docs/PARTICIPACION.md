@@ -10,6 +10,17 @@ En clase practiqué las bases de TensorFlow/Keras. Para el trabajo final partici
 
 El alcance que puedo explicar a partir del proyecto es inicial: clasificación de intenciones, relación entre entidades y consultas, integración de Python con SQL Server y revisión de un prototipo web. No presento la presencia de una BiLSTM en el código como prueba de dominio avanzado de redes recurrentes ni atribuyo todo el desarrollo a una sola persona.
 
+## Qué aprendí durante el proyecto
+
+La práctica de clase y el trabajo grupal me permitieron conectar fundamentos de programación con una necesidad concreta: responder preguntas usando datos académicos relacionados.
+
+- **Python:** reforcé la lectura del flujo entre funciones, condiciones y datos: qué entra al programa, qué se consulta y cómo se prepara la respuesta.
+- **TensorFlow/Keras:** practiqué las bases de clasificación con ejemplos y comprendí la diferencia entre reconocer una intención e identificar la materia o fecha necesaria para resolverla.
+- **SQL Server:** relacioné estudiantes, horarios, materias y docentes para entender de dónde debe salir la información que devuelve el bot.
+- **Requisitos y revisión:** participé precisando el comportamiento esperado y comprobando si la respuesta correspondía a la pregunta y al perfil utilizado.
+
+Estos aprendizajes son la razón de incluir el proyecto en mi portafolio. En [Resultados y aprendizajes](RESULTADOS_Y_APRENDIZAJES.md) explico cada uno con ejemplos, las decisiones que puedo relacionar mejor y cómo aportan a mi perfil.
+
 ## Uso de IA
 
 Utilizamos IA de forma importante para construir y ajustar el bot, la interfaz y la integración SQL. El grupo planteaba preguntas, pedía cambios y comprobaba respuestas; gran parte de la implementación final fue asistida. Esto se distingue de los ejercicios básicos escritos manualmente en clase.

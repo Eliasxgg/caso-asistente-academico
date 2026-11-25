@@ -10,6 +10,20 @@ Aquí presento su funcionamiento, arquitectura, aprendizajes y pruebas mediante 
 
 > **Proyecto académico independiente.** No es un servicio oficial de la universidad ni consulta sus sistemas reales. Las personas, identificadores y contactos que aparecen en las capturas son ficticios.
 
+## Qué aprendí con este proyecto
+
+El aprendizaje principal fue **entender cómo conectar una pregunta escrita con una respuesta basada en datos**. Para conseguirlo trabajé con un recorrido que combina Python, clasificación de intenciones y SQL Server.
+
+| Área | Aprendizaje que destaco | Ejemplo del proyecto |
+|---|---|---|
+| Python y lógica del programa | Reforcé cómo se organiza una solución en funciones, condiciones y datos que pasan entre módulos | Recibir la pregunta, identificar qué se necesita consultar y preparar la respuesta |
+| TensorFlow/Keras | Practiqué los fundamentos de entrenar un clasificador con ejemplos y utilizarlo para reconocer categorías de preguntas | Distinguir una consulta de docente de una consulta de horario |
+| Intenciones y entidades | Comprendí la diferencia entre lo que se pide y el dato concreto sobre el que se pregunta | «¿Quién da Sistemas Expertos?» combina la intención de consultar un docente con el nombre de una materia |
+| SQL Server | Comprendí cómo relacionar la información del estudiante con materias, horarios, docentes y evaluaciones | Responder con los registros asociados al perfil y a la materia consultada |
+| Requisitos y revisión | Aprendí a precisar qué respuesta esperábamos y a revisar si correspondía a la pregunta | Comprobar materia, día, aula y perfil, además de que el bot mostrara algún texto |
+
+Son aprendizajes básicos aplicados en un proyecto grupal con asistencia de IA. Los desarrollo con ejemplos y decisiones en [Resultados y aprendizajes](docs/RESULTADOS_Y_APRENDIZAJES.md).
+
 ## Problema y objetivo
 
 Una consulta como «¿qué clase tengo el lunes?» necesita relacionar al estudiante con sus materias, horarios y aulas. Otras preguntas requieren identificar una materia, una facultad o una fecha. El objetivo del prototipo fue reunir esas consultas en una interfaz conversacional y responder con los registros de una base simulada.
@@ -78,11 +92,11 @@ flowchart LR
 
 Este diagrama representa el recorrido lógico. La [arquitectura detallada](docs/ARQUITECTURA_Y_OPERACION.md) distingue los servicios y volúmenes de la adaptación local. No hay un despliegue público activo.
 
-## Mi participación y aprendizajes
+## Mi participación
 
 En clase practiqué los fundamentos de TensorFlow/Keras. En el proyecto grupal participé planteando el comportamiento esperado, aportando el contexto académico y probando las respuestas. Utilizamos IA de forma importante para implementar y ajustar el bot, la interfaz y la integración SQL; no presento ese código como desarrollo individual escrito íntegramente por mí.
 
-El proyecto me ayudó a entender cómo se relacionan la clasificación de una pregunta, la extracción de sus datos y una consulta a la base. También me permitió trabajar con un prototipo que integra Python y SQL Server, y reconocer por qué una demostración necesita datos adecuados, casos de prueba y límites claros.
+Mi aporte estuvo en relacionar el contexto académico con el comportamiento que buscábamos, orientar los ajustes y probar las consultas. El resultado me permitió reforzar fundamentos de Python y comprender la integración entre una interfaz, un clasificador y una base relacional, como explico en [Resultados y aprendizajes](docs/RESULTADOS_Y_APRENDIZAJES.md).
 
 La preparación local y documental de 2026 también tuvo asistencia del agente: Docker, datos ficticios, compatibilidad, correcciones y pruebas. Distingo esa adaptación posterior del trabajo académico original en [Participación y procedencia](docs/PARTICIPACION.md).
 
@@ -94,6 +108,7 @@ Como siguientes mejoras propongo ampliar la evaluación con frases nuevas, revis
 
 ## Documentación
 
+- [Resultados y aprendizajes](docs/RESULTADOS_Y_APRENDIZAJES.md).
 - [Arquitectura y operación](docs/ARQUITECTURA_Y_OPERACION.md).
 - [Validación y límites](docs/VALIDACION_Y_LIMITES.md).
 - [Registro de capturas y ejemplos](docs/EVIDENCIAS.md).
