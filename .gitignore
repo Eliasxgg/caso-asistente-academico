@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.gitattributes
+!README.md
+!docs/
+!docs/*.md
+!docs/capturas/
+!docs/capturas/*.jpg
